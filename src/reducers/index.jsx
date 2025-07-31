@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
-
+import counterReducer from './Counter'
 const allReducers = combineReducers({
-  // reducers được nhúng vào đây import fileReducer
+  counterReducer,
 })
 
 export default allReducers
