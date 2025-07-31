@@ -1,6 +1,7 @@
 import CountUseReducer from './components/CountUseReducer'
 import CountUseState from './components/CountUseState'
 import CounterRedux from './components/CounterRedux'
+import TodoListRedux from './components/TodoListRedux'
 import TodoListUseReducer from './components/TodoListUseReducer'
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <CountUseReducer />
       <TodoListUseReducer />
       <CounterRedux />
+      <TodoListRedux />
     </>
   )
 }
